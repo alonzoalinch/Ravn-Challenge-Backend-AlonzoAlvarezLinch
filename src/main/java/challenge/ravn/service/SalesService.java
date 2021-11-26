@@ -20,5 +20,6 @@ public class SalesService {
             salesResponseList.add(new SalesResponse(bestSeller.getAuthor(), bestSeller.getRevenue()));
         }
         return salesResponseList;
+
     }
 }
