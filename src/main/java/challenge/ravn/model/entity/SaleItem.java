@@ -12,7 +12,7 @@ public class SaleItem {
     @GeneratedValue
     private Long id;
     private String customerName;
-    private Double price;
+    private Double itemPrice;
     private Integer quantity;
     @ManyToOne
     @JoinColumn(name = "book_id")
